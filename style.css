@@ -1,0 +1,111 @@
+nav{
+    font-family: 'Abel', sans-serif;
+}
+.truck-background{
+    font-family: 'Abel', sans-serif;
+}
+.ul-list{
+    font-family: 'Abel', sans-serif;
+}
+.text-video {
+    font-family: 'Abel', sans-serif;
+}
+
+div#navbarNavAltMarkup {
+    justify-content: center;
+}
+nav.navbar.sticky-top.navbar-expand-lg.bg-info {
+    padding: 20px 0 20px 0;
+}
+a.navbar-brand {
+    margin: 0 0 0 30px;
+}
+.myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .truck {
+    filter: brightness(60%);
+    height: 100%;
+}
+.ul-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dc3545;
+    padding: 50px 0 50px 0;
+    align-items: center;
+}
+.li-list {
+    color: white;
+}
+.shipping {
+    font-weight: 900;
+    font-size: 200%;
+    font-style: italic;
+}
+.call {
+    font-size: 150%;
+}
+button.btn.btn-info {
+    padding: 5px 40px 5px 40px;
+}
+.video {
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #404040;
+}
+section.video {
+    margin: 90px;
+}
+p.text-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+span.my-video {
+
+}
+
+@media (max-width:708px ) {
+    .text-centered {
+        font-size: 60%;
+    }
+    .text-centered2 {
+        font-size: 120%;
+    }
+    button.btn.btn-danger {
+        font-size: 60%;
+    }
+    .ul-list {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    li.li-list {
+        /* font-size: small; */
+        /* padding: 10px 0 10px 0; */
+    }
+    .shipping {
+        font-size: large;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .call {
+        font-size: large;
+        padding-bottom: 15px;
+    }
+    .request {
+        font-size: smaller;
+    }
+   
+}
