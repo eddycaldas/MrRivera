@@ -1,16 +1,6 @@
-nav{
+* {
     font-family: 'Abel', sans-serif;
 }
-.truck-background{
-    font-family: 'Abel', sans-serif;
-}
-.ul-list{
-    font-family: 'Abel', sans-serif;
-}
-.text-video {
-    font-family: 'Abel', sans-serif;
-}
-
 div#navbarNavAltMarkup {
     justify-content: center;
 }
@@ -111,6 +101,23 @@ i.fa.fa-globe {
     padding: 2vh;
     font-size: 3vh;
 }
+.intro-who {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F4F4F4;
+    margin: 5vh;
+}
+img.image-intro-who {
+    width: 70%;
+    margin: 15vh 0vh 15vh 15vh;
+}
+.text-intro-who {
+    margin: 15vh 15vh 15vh 1vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (max-width:708px ) {
     .text-centered {
@@ -174,6 +181,24 @@ i.fa.fa-globe {
     }
     .technology {
         padding: 5vh;
+    }
+    .intro-who {
+        display: flex;
+        flex-direction: column;
+        background-color: #F4F4F4;
+        text-align-last: center;
+        text-align: -webkit-center;
+    }
+    img.image-intro-who {
+        width: 90%;
+        margin: 10vh 0vh 5vh 0vh;
+    }
+    .text-intro-who {
+        margin: 5vh 0vh 10vh 0vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
    
 }
