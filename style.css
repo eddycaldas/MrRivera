@@ -69,12 +69,13 @@ section.video {
 p.text-video {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 30px;
     color: white;
 }
 .option {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 i.fa.fa-cogs {
     display: flex;
@@ -87,6 +88,28 @@ i.fa.fa-truck {
 i.fa.fa-globe {
     display: flex;
     flex-direction: column;
+}
+.shippers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.carriers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.technology {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.p-option {
+    padding: 2vh;
+    font-size: 3vh;
 }
 
 @media (max-width:708px ) {
@@ -139,6 +162,18 @@ i.fa.fa-globe {
         padding-top: 5vh;
         padding-bottom: 5vh;
     }
-   
+    .p-option {
+        padding: 1vh;
+        font-size: 2vh;
+    }
+    .shippers {
+        padding: 5vh;
+    }
+    .carriers {
+        padding: 5vh;
+    }
+    .technology {
+        padding: 5vh;
+    }
    
 }
