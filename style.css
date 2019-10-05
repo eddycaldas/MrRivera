@@ -72,8 +72,21 @@ p.text-video {
     margin-top: 30px;
     color: white;
 }
-span.my-video {
-
+.option {
+    display: flex;
+    justify-content: space-evenly;
+}
+i.fa.fa-cogs {
+    display: flex;
+    flex-direction: column;
+}
+i.fa.fa-truck {
+    display: flex;
+    flex-direction: column;
+}
+i.fa.fa-globe {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width:708px ) {
@@ -89,11 +102,11 @@ span.my-video {
     .ul-list {
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        /* padding: 20px; */
     }
-    li.li-list {
-        /* font-size: small; */
-        /* padding: 10px 0 10px 0; */
+    ul.ul-list {
+        padding: 20px;
+        margin: 0;
     }
     .shipping {
         font-size: large;
@@ -107,5 +120,25 @@ span.my-video {
     .request {
         font-size: smaller;
     }
+    .video {
+        /* padding: 0 0 0 0; */
+        /* display: flex; */
+        /* justify-content: center; */
+        background-color: #404040;
+    }
+    .mini {
+        width: 100%;
+    }
+    section.video {
+        margin: 0px;
+    }
+    .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+   
    
 }
