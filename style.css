@@ -114,10 +114,10 @@ i.fa.fa-globe {
 }
 img.image-intro-who {
     width: 70%;
-    margin: 15vh 0vh 15vh 15vh;
+    margin: 10vh 0vh 10vh 15vh;
 }
 .text-intro-who {
-    margin: 15vh 15vh 15vh 1vh;
+    margin: 10vh 15vh 10vh 1vh;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -129,14 +129,14 @@ img.image-intro-who {
 }
 .left {
     width: 70%;
-    margin: 15vh 0vh 15vh 15vh;
+    margin: 10vh 0vh 10vh 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .right {
-    margin: 15vh 15vh 15vh 1vh;
+    margin: 10vh 15vh 10vh 1vh;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -152,6 +152,11 @@ img.image-intro-who {
 .list {
         list-style-type: none;
         padding: 2vh;
+}
+
+/* who we are */
+.who-we-are-background {
+    width: 100%;
 }
 
 @media (max-width:708px ) {
