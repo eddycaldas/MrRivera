@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0; 
 }
-
 div#navbarNavAltMarkup {
     justify-content: center;
 }
@@ -151,8 +150,6 @@ img.image-intro-who {
         list-style-type: none;
         padding: 2vh;
 }
-
-/* who we are */
 .who-we-are-background {
     width: 100%;
 }
@@ -160,12 +157,8 @@ img.image-intro-who {
     filter: brightness(60%);
   }
   .ul-list2 {
-    /* list-style-type: none;
-    display: flex;
-    justify-content: space-around; */
     background-color: #2f373b;
     padding: 20px 0 20px 0;
-    /* align-items: center; */ 
 }
 .intro-contact2 { 
     background-color: #cfbdd4;
@@ -196,14 +189,8 @@ img.image-intro-who {
     align-items: center;
 }
 .left2 {
-    /* width: 70%; */
     margin: 10vh 10vh 10vh 15vh;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
 }
-
 @media (max-width:708px ) {
     * {
         font-family: 'Abel', sans-serif;
@@ -225,7 +212,6 @@ img.image-intro-who {
     .ul-list {
         display: flex;
         flex-direction: column;
-        /* padding: 20px; */
     }
     ul.ul-list {
         padding: 20px;
@@ -244,9 +230,6 @@ img.image-intro-who {
         font-size: smaller;
     }
     .video {
-        /* padding: 0 0 0 0; */
-        /* display: flex; */
-        /* justify-content: center; */
         background-color: #404040;
     }
     .mini {
@@ -301,10 +284,6 @@ img.image-intro-who {
     .left {
         width: 100%;
         margin: 15vh 1vh 5vh 1vh;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* justify-content: space-evenly; */
     }
     .right {
         margin: 5vh 0vh 10vh 0vh;
@@ -326,31 +305,18 @@ img.image-intro-who {
         background-color: #cfbdd4;
     }
     .ul-list2 {
-        /* list-style-type: none;
-        display: flex;
-        justify-content: space-around; */
         background-color: #2f373b;
         padding: 10px 0 10px 0;
-        /* align-items: center; */ 
     }
     .right2 {
         align-self: center;
     }
     .left {
-        /* width: 70%; */
         margin: 5vh 2vh 5vh 0vh;
         padding: 2vh;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly; */
     }
     .right {
         margin: 5vh 2vh 5vh 2vh;
-        /* width: 90%; */
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; */
     }
     .centered4 {
         position: absolute;
